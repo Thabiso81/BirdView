@@ -7,7 +7,7 @@
     android:gravity="bottom"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
-    tools:context=".TripObservationsListFragment">
+    tools:context="com.birdview.TripObservationsListFragment">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"

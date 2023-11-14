@@ -41,16 +41,16 @@
             android:value="@string/maps_api_key" />
 
         <activity
-            android:name=".MainActivity"
+            android:name="com.birdview.MainActivity"
             android:exported="false" />
         <activity
-            android:name=".SignInActivity"
+            android:name="com.birdview.SignInActivity"
             android:exported="false" />
         <activity
-            android:name=".SignUpActivity"
+            android:name="com.birdview.SignUpActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashPageActivity"
+            android:name="com.birdview.SplashPageActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

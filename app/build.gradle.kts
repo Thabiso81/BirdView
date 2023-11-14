@@ -68,6 +68,9 @@ dependencies {
     // Glide for image loading
     implementation ("com.github.bumptech.glide:glide:4.12.0")
     implementation("com.google.firebase:firebase-storage:20.3.0")
+    implementation("androidx.test:monitor:1.6.1")
+    implementation("junit:junit:4.12")
+    implementation("androidx.test.ext:junit-ktx:1.1.5")
 //
     testImplementation("junit:junit:4.13.2")
     implementation ("de.hdodenhof:circleimageview:3.1.0")
