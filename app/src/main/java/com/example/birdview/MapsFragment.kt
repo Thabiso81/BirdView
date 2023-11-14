@@ -181,7 +181,7 @@ class MapsFragment : Fragment(), OnMapReadyCallback, GoogleMap.OnMarkerClickList
                         placeMarkerOnMap(location, hotspot.locationName!!)
                     }
                 }else{
-                    Toast.makeText(this@MapsFragment.requireContext(), "There are nobird hotspots nearby", Toast.LENGTH_SHORT).show()
+                    Toast.makeText(this@MapsFragment.requireContext(), "There are no bird hotspots nearby", Toast.LENGTH_SHORT).show()
 
                 }
             }
