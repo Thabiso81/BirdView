@@ -5,7 +5,7 @@ plugins {
     id("com.google.gms.google-services")
 }
 android {
-    namespace = "com.example.birdview"
+    namespace = "com.birdview.app"
     compileSdk = 33
 
     buildFeatures {
@@ -13,7 +13,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.birdview"
+        applicationId = "com.birdview.app"
         minSdk = 28
         targetSdk = 33
         versionCode = 1
